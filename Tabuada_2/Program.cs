@@ -22,9 +22,20 @@ namespace Tabuada_2
                  
                         
             Console.WriteLine(ntab + "x" + n + "=" + n * ntab);
-            
-         
-            
+
+            if (ni > 100)
+                Console.WriteLine("Limite máximo permitido é 100");
+            else if (ni < 0 )
+                Console.WriteLine("Limite minimo permitido é 0");
+            if (nf > 100)
+                Console.WriteLine("Limite máximo permitido é 100");
+            else if (nf < 0)
+                Console.WriteLine("Limite minimo permitido é 0");
+
+
+
+
+
             Console.ReadKey();
         }
     }
